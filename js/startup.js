@@ -14,8 +14,6 @@ const psLogo = $("#ps_logo");
 const psCredits = $("#ps_credits");
 
 function ps1StartupAnimation() {
-    $("*").css("cursor", "none");
-
     page.animate({
         backgroundColor: "#FFFFFF"
     }, 998);
@@ -104,6 +102,10 @@ function ps1StartupSound() {
 playButton.click(() => {
     playButton.fadeOut(500);
     $("#welcome p").fadeOut(500);
+
+    setTimeout(() => {
+        $("*").css("cursor", "none");
+    }, 500);
 
    setTimeout(() => {
        ps1StartupSound();
