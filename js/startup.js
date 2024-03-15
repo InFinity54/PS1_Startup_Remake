@@ -85,7 +85,7 @@ function ps1StartupAnimation() {
     }, 15500);
 
     setTimeout(() => {
-        welcome();
+        window.location.reload();
     }, 16650);
 }
 
