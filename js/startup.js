@@ -14,6 +14,8 @@ const psLogo = $("#ps_logo");
 const psCredits = $("#ps_credits");
 
 function ps1StartupAnimation() {
+    $("*").css("cursor", "none");
+
     page.animate({
         backgroundColor: "#FFFFFF"
     }, 998);
