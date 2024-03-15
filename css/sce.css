@@ -10,6 +10,7 @@
     left: calc(50% - 25%);
     width: 50%;
     height: 11cqh;
+    display: none;
 }
 
 #sce_logo_background {
@@ -20,7 +21,7 @@
     height: 50%;
     background: linear-gradient(90deg, rgba(224,23,5,1) 0%, rgba(223,147,0,1) 50%, rgba(224,23,5,1) 100%);
     clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-    opacity: 0.5;
+    display: none;
 }
 
 #sce_logo_triangle1, #sce_logo_triangle2 {
@@ -34,6 +35,7 @@
     left: calc(50% - 25%);
     background: linear-gradient(90deg, rgba(224,23,5,1) 0%, rgba(223,147,0,1) 100%);
     clip-path: polygon(0% 50%, 100% 100%, 100% 0);
+    display: none;
 }
 
 #sce_logo_triangle2 {
@@ -41,6 +43,7 @@
     left: calc(50%);
     background: linear-gradient(90deg, rgba(223,147,0,1) 0%, rgba(224,23,5,1) 100%);
     clip-path: polygon(100% 50%, 0 100%, 0 0);
+    display: none;
 }
 
 #sce_trademark {
@@ -52,6 +55,7 @@
     font-family: 'HelveticaNeueExtended', sans-serif;
     font-size: 3.2vmin;
     text-align: center;
+    display: none;
 }
 
 #sce_logo_bottom {
@@ -62,6 +66,7 @@
     height: fit-content;
     font-family: 'HelveticaNeueExtended', sans-serif;
     text-align: center;
+    display: none;
 }
 
 #sce_logo_bottom p:first-child {

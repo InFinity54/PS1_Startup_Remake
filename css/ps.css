@@ -9,6 +9,7 @@
     top: 16%;
     left: calc(50% - 20%);
     width: 40%;
+    display: none;
 }
 
 #ps_logo {
@@ -20,6 +21,7 @@
     color: white;
     font-size: 7vmin;
     text-align: center;
+    display: none;
 }
 
 #ps_credits {
@@ -31,6 +33,7 @@
     font-size: 3vmin;
     color: white;
     text-align: center;
+    display: none;
 }
 
 #ps_credits p:last-child {

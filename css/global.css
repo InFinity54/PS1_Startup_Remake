@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /*cursor: none;*/
 }
 
 /* SCREEN */
@@ -15,11 +14,41 @@
     overflow: hidden;
 }
 
-/* TEMP */
-body {
-    background-color: black;
+/* PLAY BUTTON */
+#playbutton {
+    position: fixed;
+    top: calc(50% - 23px);
+    left: calc(50% - 125px);
+    width: 250px;
+    height: 46px;
+    font-family: "HelveticaNeueExtended", sans-serif;
+    font-size: 21px;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    display: none;
 }
 
-#sce {
-    display: none;
+#playbutton:hover {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+#playbutton:active {
+    color: #212529;
+    background-color: #dae0e5;
+    border-color: #d3d9df;
+}
+
+/* ANIMATION STARTING POINT */
+body {
+    background-color: #000000;
 }
