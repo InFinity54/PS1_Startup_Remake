@@ -1,68 +1,74 @@
+#sce {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 #sce_logo_top {
-    width: 64vh;
-    height: 11vh;
-    position: fixed;
-    top: 7vh;
-    left: calc(50% - (64vh / 2));
+    position: absolute;
+    top: 5%;
+    left: calc(50% - 25%);
+    width: 50%;
+    height: 11cqh;
 }
 
 #sce_logo_background {
-    width: 52vh;
-    height: 52vh;
-    position: fixed;
-    top: calc(50% - (52vh / 2));
-    left: calc(50% - (52vh / 2));
+    position: absolute;
+    top: calc(50% - 25%);
+    left: calc(50% - 25%);
+    width: 50%;
+    height: 50%;
     background: linear-gradient(90deg, rgba(224,23,5,1) 0%, rgba(223,147,0,1) 50%, rgba(224,23,5,1) 100%);
     clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    opacity: 0.5;
 }
 
 #sce_logo_triangle1, #sce_logo_triangle2 {
-    width: 26vh;
-    height: 52vh;
-    position: fixed;
+    width: 25%;
+    height: 50%;
+    position: absolute;
 }
 
 #sce_logo_triangle1 {
-    top: calc(50% - (52vh / 2));
-    left: calc(50% - (52vh / 2));
+    top: calc(50% - 25%);
+    left: calc(50% - 25%);
     background: linear-gradient(90deg, rgba(224,23,5,1) 0%, rgba(223,147,0,1) 100%);
     clip-path: polygon(0% 50%, 100% 100%, 100% 0);
 }
 
 #sce_logo_triangle2 {
-    top: calc(50% - (52vh / 2));
+    top: calc(50% - 25%);
     left: calc(50%);
     background: linear-gradient(90deg, rgba(223,147,0,1) 0%, rgba(224,23,5,1) 100%);
     clip-path: polygon(100% 50%, 0 100%, 0 0);
 }
 
 #sce_trademark {
-    width: 37px;
-    height: 27px;
-    position: fixed;
-    top: 74vh;
-    right: calc(50% - 9vh);
+    position: absolute;
+    right: calc(50% - 11%);
+    bottom: 24%;
+    width: 7%;
+    height: 4%;
     font-family: 'HelveticaNeueExtended', sans-serif;
-    font-size: 22px;
+    font-size: 3.2vmin;
     text-align: center;
 }
 
 #sce_logo_bottom {
-    width: 64vh;
-    height: 11vh;
-    position: fixed;
-    bottom: 8vh;
-    left: calc(50% - (64vh / 2));
+    position: absolute;
+    bottom: 5.5%;
+    left: calc(50% - 25%);
+    width: 50%;
+    height: fit-content;
     font-family: 'HelveticaNeueExtended', sans-serif;
-    overflow: visible;
     text-align: center;
 }
 
 #sce_logo_bottom p:first-child {
-    font-size: 6.84vw;
+    font-size: 7.8vmin;
 }
 
 #sce_logo_bottom p:last-child {
-    margin-top: -2.5vh;
-    font-size: 4.6vw;
+    margin-top: -4%;
+    font-size: 5.27vmin;
 }

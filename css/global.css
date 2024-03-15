@@ -4,3 +4,13 @@
     overflow: hidden;
     /*cursor: none;*/
 }
+
+/* SCREEN */
+#screen {
+    position: fixed;
+    top: calc(50% - 50vmin);
+    left: calc(50% - 50vmin);
+    width: 100vmin;
+    height: 100vmin;
+    overflow: hidden;
+}
