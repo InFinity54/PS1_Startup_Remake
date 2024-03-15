@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Zrnic';
+    src: url('../../fonts/Zrnic/Zrnic.eot');
+    src: url('../../fonts/Zrnic/Zrnic.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Zrnic/Zrnic.woff2') format('woff2'),
+         url('../../fonts/Zrnic/Zrnic.woff') format('woff'),
+         url('../../fonts/Zrnic/Zrnic.ttf') format('truetype'),
+         url('../../fonts/Zrnic/Zrnic.svg#zrnicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

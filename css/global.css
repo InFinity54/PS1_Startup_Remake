@@ -14,3 +14,12 @@
     height: 100vmin;
     overflow: hidden;
 }
+
+/* TEMP */
+body {
+    background-color: black;
+}
+
+#sce {
+    display: none;
+}
