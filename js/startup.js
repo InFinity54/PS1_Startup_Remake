@@ -56,12 +56,7 @@ function ps1StartupAnimation() {
     }, 2000);
 
     setTimeout(() => {
-        sceLogoTop.fadeOut(30);
-        sceLogoBackground.fadeOut(30);
-        sceLogoTriangle1.fadeOut(30);
-        sceLogoTriangle2.fadeOut(30);
-        sceTrademark.fadeOut(30);
-        sceLogoBottom.fadeOut(30);
+        sceContainer.fadeOut(100);
     }, 7000);
 
     setTimeout(() => {
