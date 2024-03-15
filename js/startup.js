@@ -85,7 +85,7 @@ function ps1StartupAnimation() {
     }, 15500);
 
     setTimeout(() => {
-        window.location.reload();
+        welcome();
     }, 16650);
 }
 
@@ -109,5 +109,12 @@ playButton.click(() => {
    }, 1500);
 });
 
-playButton.fadeIn(500);
-welcomeTexts.fadeIn(500);
+function welcome() {
+    welcomeTexts.fadeIn(500);
+
+    setTimeout(() => {
+        playButton.fadeIn(500);
+    }, 1000);
+}
+
+welcome();
