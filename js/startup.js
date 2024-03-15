@@ -110,6 +110,8 @@ playButton.click(() => {
 });
 
 function welcome() {
+    $("*").css("cursor", "default");
+
     welcomeTexts.fadeIn(500);
 
     setTimeout(() => {
