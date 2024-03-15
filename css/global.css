@@ -33,6 +33,7 @@ body {
     font-family: "HelveticaNeueExtended", sans-serif;
     font-size: 20px;
     color: white;
+    display: none;
 }
 
 #welcome p:not(:first-child) {

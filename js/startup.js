@@ -1,5 +1,6 @@
 const page = $("body");
-const playButton = $("#playbutton")
+const welcomeTexts = $("#welcome p");
+const playButton = $("#playbutton");
 
 const sceContainer = $("#sce");
 const sceLogoTop = $("#sce_logo_top");
@@ -78,14 +79,14 @@ function ps1StartupAnimation() {
     }, 7750);
 
     setTimeout(() => {
-        psIcon.hide();
-        psLogo.hide();
-        psCredits.hide();
-    }, 14750);
+        psIcon.fadeOut(150);
+        psLogo.fadeOut(150);
+        psCredits.fadeOut(150);
+    }, 15500);
 
     setTimeout(() => {
         window.location.reload();
-    }, 15750);
+    }, 16650);
 }
 
 function ps1StartupSound() {
@@ -96,7 +97,7 @@ function ps1StartupSound() {
 
 playButton.click(() => {
     playButton.fadeOut(500);
-    $("#welcome p").fadeOut(500);
+    welcomeTexts.fadeOut(500);
 
     setTimeout(() => {
         $("*").css("cursor", "none");
@@ -108,6 +109,5 @@ playButton.click(() => {
    }, 1500);
 });
 
-setTimeout(() => {
-    playButton.fadeIn(500);
-}, 1000);
+playButton.fadeIn(500);
+welcomeTexts.fadeIn(500);
