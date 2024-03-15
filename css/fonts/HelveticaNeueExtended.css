@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'HelveticaNeueExtended';
+    src: url('../../fonts/HelveticaNeueExtended/HelveticaNeueExtended.eot');
+    src: url('../../fonts/HelveticaNeueExtended/HelveticaNeueExtended.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/HelveticaNeueExtended/HelveticaNeueExtended.woff2') format('woff2'),
+         url('../../fonts/HelveticaNeueExtended/HelveticaNeueExtended.woff') format('woff'),
+         url('../../fonts/HelveticaNeueExtended/HelveticaNeueExtended.ttf') format('truetype'),
+         url('../../fonts/HelveticaNeueExtended/HelveticaNeueExtended.svg#helvetica_neue_lt_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
