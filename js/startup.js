@@ -103,6 +103,7 @@ function ps1StartupSound() {
 
 playButton.click(() => {
     playButton.fadeOut(500);
+    $("#welcome p").fadeOut(500);
 
    setTimeout(() => {
        ps1StartupSound();
